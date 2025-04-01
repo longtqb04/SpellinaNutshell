@@ -7,7 +7,7 @@ function App() {
   const [revealed, isRevealed] = useState(false);
 
   useEffect(() => {
-    fetch("./assets/wordlist_sf.txt")
+    fetch("assets/wordlist_sf.txt")
       .then((response) => response.text())
       .then((text) => {
         const wordArray = text.split("\n").map(w => w.trim()).filter(Boolean)
