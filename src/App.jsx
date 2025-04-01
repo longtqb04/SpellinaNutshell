@@ -45,7 +45,7 @@ function App() {
   return (
     <>
       <div>
-        <img src="./assets/spell_2025_logo.png" className="logo spell" alt="Spell in a Nutshell logo"/>
+        <img src="assets/spell_2025_logo.png" className="logo spell" alt="Spell in a Nutshell logo"/>
       </div>
       <div>
         <div>
