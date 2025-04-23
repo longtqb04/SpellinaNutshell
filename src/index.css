@@ -28,7 +28,8 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
-  background-image: linear-gradient(#ffffff, #2a6aff);
+  background-image: linear-gradient(90deg,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(14, 11, 110, 1) 100%);
+  color: white;
 }
 
 h1 {
@@ -64,6 +65,7 @@ button {
 
 button:active, button:hover {
   outline: 0;
+  filter: drop-shadow(0 0 2em #646cffaa);
 }
 
 button span {
